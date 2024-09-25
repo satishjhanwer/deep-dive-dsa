@@ -37,15 +37,6 @@ This repository is designed to provide clear and well-explained implementations 
   - Refer to the documentation files (`.md` files) for detailed explanations and examples.
   - Run the Python code and experiment with different functionalities.
 
-## Contributing
-
-We welcome contributions to expand this repository with implementations of other common data structures. If you'd like to contribute, please follow these guidelines:
-
-- Create a new folder for the data structure you want to add.
-- Include similar sub folders within the new folder (e.g., `Intro`, `Example`, `Implementation`).
-- Write clear documentation and code for the chosen data structure.
-- Submit a pull request to the repository.
-
 ## Future Plans
 
 We are actively working on extending this repository to include implementations of additional data structures, such as:
