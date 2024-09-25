@@ -6,7 +6,7 @@
 - **Time Complexity**: O(n)
 - **Space Complexity**: O(1)
 
-### Algorithm Explanation:
+### Algorithm Explanation
 
 - Use two pointers, `slow` and `fast`. `slow` moves one step at a time, while `fast` moves two steps.
 - If the list has a cycle, `slow` and `fast` will eventually meet. If not, `fast` will reach the end (`None`).
