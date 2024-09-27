@@ -1,13 +1,16 @@
+# Basic structure of Node
 class Node:
     def __init__(self, data):
-        self.data = data
-        self.next = None
+        self.data = data  # Data part of the node
+        self.next = None  # Pointer to the next node
 
 
+# Basic structure of LinkedList
 class LinkedList:
     def __init__(self):
-        self.head = None
+        self.head = None  # Initialize the list with no head (empty list)
 
+    # Traversal
     def traverse(self):
         if not self.head:
             print("The list is empty.")
@@ -18,11 +21,13 @@ class LinkedList:
             current = current.next
         print("None")
 
+    # Insertion at the beginning
     def insert_at_beginning(self, data):
         new_node = Node(data)
         new_node.next = self.head
         self.head = new_node
 
+    # Insertion at the end
     def insert_at_end(self, data):
         new_node = Node(data)
         if not self.head:
@@ -33,6 +38,7 @@ class LinkedList:
             last = last.next
         last.next = new_node
 
+    # Insertion at a position
     def insert_at_position(self, data, position):
         if position == 0:
             self.insert_at_beginning(data)
@@ -46,12 +52,14 @@ class LinkedList:
         new_node.next = current.next
         current.next = new_node
 
+    # Deletion at the beginning
     def delete_at_beginning(self):
         if not self.head:
             print("The list is empty. No deletion performed.")
             return
         self.head = self.head.next
 
+    # Deletion at the end
     def delete_at_end(self):
         if not self.head:
             print("The list is empty. No deletion performed.")
@@ -64,6 +72,7 @@ class LinkedList:
             current = current.next
         current.next = None
 
+    # Deletion at a position
     def delete_at_position(self, position):
         if not self.head:
             print("The list is empty. No deletion performed.")
@@ -78,6 +87,7 @@ class LinkedList:
             current = current.next
         current.next = current.next.next
 
+    # Searching for an element
     def search(self, key):
         current = self.head
         position = 0
@@ -89,6 +99,7 @@ class LinkedList:
             position += 1
         print(f"Element {key} not found in the list.")
 
+    # Reversing the linked list
     def reverse(self):
         previous = None
         current = self.head
@@ -99,6 +110,7 @@ class LinkedList:
             current = next_node
         self.head = previous
 
+    # Check if the list is empty
     def is_empty(self):
         return self.head is None
 

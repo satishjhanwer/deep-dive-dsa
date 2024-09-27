@@ -5,11 +5,26 @@ This repository is designed to provide clear and well-explained implementations 
 ## Folder Structure
 
 - [LinkedList](LinkedList/)
+
   - [Intro Linked List](LinkedList/linked-list.md)
-  - [Example of Linked List](LinkedList/linked-list-example.md)
-  - [Advance Linked List](LinkedList/advance-linked-list.md)
   - [Doubly Linked List](LinkedList/doubly-linked-list.md)
-  - [Implementation of Linked List](LinkedList/linked-list.py)
+  - [Advance Linked List](LinkedList/advance-linked-list.md)
+  - [Sorting Algorithms with Linked List](LinkedList/sorting-with-linked-list.md)
+  - [Python Implementation of Linked List](LinkedList/linked-list.py)
+
+- [Stack](Stack/)
+
+  - [Intro Stack](LinkedList/stack.md)
+  - [Various Types of Stack](LinkedList/types-of-stack.md)
+  - [Sorting Algorithms with Stack](LinkedList/sorting-with-stack.md)
+  - [Python Implementation of Stack](LinkedList/stack.py)
+
+- [Queue](Queue/)
+
+  - [Intro Queue](LinkedList/queue.md)
+  - [Various Types of Queue](LinkedList/types-of-queue.md)
+  - [Sorting Algorithms with Queue](LinkedList/sorting-with-queue.md)
+  - [Python Implementation of Queue](LinkedList/queue.py)
 
 ## Usage
 
