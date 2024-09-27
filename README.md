@@ -14,17 +14,23 @@ This repository is designed to provide clear and well-explained implementations 
 
 - [Stack](Stack/)
 
-  - [Intro Stack](LinkedList/stack.md)
-  - [Various Types of Stack](LinkedList/types-of-stack.md)
-  - [Sorting Algorithms with Stack](LinkedList/sorting-with-stack.md)
-  - [Python Implementation of Stack](LinkedList/stack.py)
+  - [Intro Stack](Stack/stack.md)
+  - [Various Types of Stack](Stack/types-of-stack.md)
+  - [Sorting Algorithms with Stack](Stack/sorting-with-stack.md)
+  - [Python Implementation of Stack](Stack/stack.py)
 
 - [Queue](Queue/)
 
-  - [Intro Queue](LinkedList/queue.md)
-  - [Various Types of Queue](LinkedList/types-of-queue.md)
-  - [Sorting Algorithms with Queue](LinkedList/sorting-with-queue.md)
-  - [Python Implementation of Queue](LinkedList/queue.py)
+  - [Intro Queue](Queue/queue.md)
+  - [Various Types of Queue](Queue/types-of-queue.md)
+  - [Sorting Algorithms with Queue](Queue/sorting-with-queue.md)
+  - [Python Implementation of Queue](Queue/queue.py)
+
+- [BinaryTree](BinaryTree/)
+
+  - [Intro Binary Tree](BinaryTree/binary-tree.md)
+  - [Sorting Algorithms with Binary Tree](BinaryTree/sorting-with-binary-tree.md)
+  - [Python Implementation of Binary Tree](BinaryTree/binary-tree.py)
 
 ## Usage
 

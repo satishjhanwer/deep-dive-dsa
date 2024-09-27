@@ -111,3 +111,29 @@ heap_sort(arr)
 print("Sorted Array:", arr)
 Sorted Array: [5, 6, 7, 11, 12, 13]
 ```
+
+## 3. Priority Queue Sort (Using Min/Max Binary Heap)
+
+**Algorithm Overview:**
+
+A `Priority Queue` can be implemented using a `Min Heap` or a `Max Heap`. The sorting is achieved by repeatedly extracting the minimum (or maximum) element from the heap.
+
+**Steps:**
+
+- Insert all elements into the `Priority Queue` (Heap).
+- Repeatedly remove the `minimum (or maximum)` element and append it to the sorted result.
+
+```python
+import heapq
+
+def priority_queue_sort(arr):
+    heapq.heapify(arr)  # Turn the array into a Min-Heap
+    sorted_arr = [heapq.heappop(arr) for _ in range(len(arr))]
+    return sorted_arr
+
+# Example Usage
+arr = [9, 7, 8, 5, 4, 2, 3]
+sorted_arr = priority_queue_sort(arr)
+print("Sorted Array:", sorted_arr)
+Sorted Array: [2, 3, 4, 5, 7, 8, 9]
+```
