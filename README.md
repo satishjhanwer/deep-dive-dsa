@@ -32,6 +32,12 @@ This repository is designed to provide clear and well-explained implementations 
   - [Sorting Algorithms with Binary Tree](BinaryTree/sorting-with-binary-tree.md)
   - [Python Implementation of Binary Tree](BinaryTree/binary-tree.py)
 
+- [BinarySearchTree](BinarySearchTree/)
+
+  - [Intro Binary Search Tree](BinarySearchTree/binary-search-tree.md)
+  - [Sorting Algorithms with Binary Search Tree](BinarySearchTree/sorting-with-binary-search-tree.md)
+  - [Python Implementation of Binary Search Tree](BinarySearchTree/binary-search-tree.py)
+
 ## Usage
 
 - **Prerequisites:** You'll need a basic understanding of Python programming. Familiarity with data structures will be beneficial.
