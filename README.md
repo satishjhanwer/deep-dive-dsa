@@ -69,9 +69,9 @@ This repository is designed to provide clear and well-explained implementations 
 We are actively working on extending this repository to include implementations of additional data structures, such as:
 
 - Arrays
-- Stacks
-- Queues
-- Trees
+- Advance Tree
+- Heap
 - Graphs
+- Hashing
 
 Feel free to check back for updates or contribute your own implementations to make this a comprehensive data structures resource.
